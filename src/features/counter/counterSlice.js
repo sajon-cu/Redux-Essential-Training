@@ -70,4 +70,15 @@ export const incrementIfOdd = (amount) => (dispatch, getState) => {
   }
 };
 
+const fetchUserById = userId => {
+  return async (dispatch, getState) => {
+    try {
+      //var respone = await user
+    } catch(err) {
+
+    }
+  }
+}
+
+
 export default counterSlice.reducer;
